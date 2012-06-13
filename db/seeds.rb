@@ -14,6 +14,8 @@
 # Visit http://www.pragmaticprogrammer.com/titles/rails4 for more book information.
 #---
 # encoding: utf-8
+User.create(name: 'ojha', password_digest: '$2a$10$eRB.VzHW81YsOAhwBIgsouXYNBqNNSXbNFmLa/hnNTs4jap6AHbDG')
+
 Product.delete_all
 Product.create(title: 'CoffeeScript',
   description: 
